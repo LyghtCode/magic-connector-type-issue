@@ -10,16 +10,23 @@
     "start": "next start"
   },
   "dependencies": {
+    "@everipedia/wagmi-magic-connector": "^0.7.1",
+    "@magic-ext/connect": "^4.0.0",
+    "@magic-ext/oauth": "^5.0.0",
+    "@magic-sdk/admin": "^1.8.0",
     "@prisma/client": "^4.8.0",
     "@tanstack/react-query": "^4.20.0",
     "@trpc/client": "^10.7.0",
     "@trpc/next": "^10.7.0",
     "@trpc/react-query": "^10.7.0",
     "@trpc/server": "^10.7.0",
+    "ethers": "^5.7.2",
+    "magic-sdk": "^11.0.0",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "1.9.1",
+    "wagmi": "^0.8.0",
     "zod": "^3.20.2"
   },
   "devDependencies": {
