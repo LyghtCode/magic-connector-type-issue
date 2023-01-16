@@ -27,5 +27,6 @@ export const clientSchema = z.object({
  */
 export const clientEnv = {
   NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
-  NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY: process.env.NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY,
+  NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY:
+    process.env.NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY,
 };
