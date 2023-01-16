@@ -1,3 +1,4 @@
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Link from "next/link";
 import { useAccount, useConnect, useDisconnect } from "wagmi";
 
@@ -21,7 +22,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      {isConnected ? (
+      {/* {isConnected ? (
         <div>
           Connected to {address}
           <button onClick={() => disconnect()}>Disconnect</button>
@@ -33,7 +34,8 @@ const Header = () => {
         >
           Connect Wallet
         </button>
-      )}
+      )} */}
+      <ConnectButton/>
     </header>
   );
 };
